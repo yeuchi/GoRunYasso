@@ -30,7 +30,7 @@ func GetRunHandler(w http.ResponseWriter, r *http.Request) {
 	p, err := loadRun(title)
 
 	if err != nil {
-		http.Redirect(w, r, "/edit/"+title, http.StatusFound)
+		http.Redirect(w, r, "/error", http.StatusFound)
 		return
 	}
 	s := string(p.Body)
