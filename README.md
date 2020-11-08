@@ -7,10 +7,9 @@ They are available as text files run1-8.txt
 <img width="200" src="https://user-images.githubusercontent.com/1282659/93022761-7c7f7b00-f5b0-11ea-9801-1961aff5f637.png">
 
 ### GET
-Get a default run dataset (1-8) on localhost.
-
-http://127.0.0.1:8080/run/1
-<img width="770" src="https://user-images.githubusercontent.com/1282659/93022762-7d181180-f5b0-11ea-9632-1746d8f91932.png">
+Get a default run dataset (1-8) on localhost. \
+http://127.0.0.1:8080/run/1 \
+<img width="600" src="https://user-images.githubusercontent.com/1282659/93022762-7d181180-f5b0-11ea-9632-1746d8f91932.png">
 
 ### POST
 
