@@ -11,13 +11,13 @@ They are available as text files run1-8.txt
 
 Android Kotlin app, RetrofitEx, is created to invoke RESTful operatior: GET / POST. \
 POST body message is composed of a json string; derived from the data class Run. \
-<img width="600" alt="data" src="https://user-images.githubusercontent.com/1282659/98486036-7be61800-21e0-11eb-99a2-870c1159ccfe.png">
+<img width="400" alt="data" src="https://user-images.githubusercontent.com/1282659/98486036-7be61800-21e0-11eb-99a2-870c1159ccfe.png">
 
 With Fiddler, we can see the traffic onRoute to GoRunYasso service.
 <img width="600" alt="fiddler" src="https://user-images.githubusercontent.com/1282659/98486038-7ee10880-21e0-11eb-86ba-8574f3e7a603.png">
 
 In PostRunHandler, we can see the Request.Body has received the Run payload.
-<img width="600" alt="received" src="https://user-images.githubusercontent.com/1282659/98486039-7ee10880-21e0-11eb-88c4-6d70cc4397b5.png">
+<img width="800" alt="received" src="https://user-images.githubusercontent.com/1282659/98486039-7ee10880-21e0-11eb-88c4-6d70cc4397b5.png">
 
 
 # References
