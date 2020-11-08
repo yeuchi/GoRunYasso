@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="layout"
+            type="com.ctyeung.retrofitex.MainActivity"/>
+    </data>
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="@dimen/title_width"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin"
+                android:id="@+id/btnRetrofit"
+                android:text="@string/title_get"
+                android:onClick="@{()->layout.onClickGet()}"/>
+
+            <TextView
+                android:layout_width="@dimen/size_width"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtRetrofitUserCount"
+                android:text="0"/>
+
+            <TextView
+                android:layout_width="@dimen/size_width"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtRetrofitElapsed"
+                android:text="0:00"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="@dimen/title_width"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin"
+                android:id="@+id/btnRxRetrofitPost"
+                android:text="@string/title_post"
+                android:onClick="@{()->layout.onClickPost()}"/>
+
+            <TextView
+                android:layout_width="@dimen/size_width"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtRxRetrofitMsg1"
+                android:text="0"/>
+
+            <TextView
+                android:layout_width="@dimen/size_width"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtRxRetrofitMsg2"
+                android:text="0"/>
+
+        </LinearLayout>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+</layout>
